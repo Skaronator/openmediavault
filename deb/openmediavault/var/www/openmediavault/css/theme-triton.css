@@ -150,10 +150,6 @@ body > .x-mask {
 .x-grid-tree-node-expanded .x-tree-elbow-end-plus {
 	color: #000000;
 }
-.x-tree-icon, .x-tree-elbow-img, .x-tree-checkbox {
-	margin-top: -5px; /* opposite of .x-grid-cell-inner */
-	margin-bottom: -5px;
-}
 /******************************************************************************/
 /* Grid */
 .x-grid-item-focused .x-grid-cell-inner:before {
@@ -165,7 +161,7 @@ body > .x-mask {
 	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
 	opacity: 0.7;
 }
-.x-grid-cell-inner {
+.x-grid-cell-inner, .x-grid-cell-inner-treecolumn {
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
